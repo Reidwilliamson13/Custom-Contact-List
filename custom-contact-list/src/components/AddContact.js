@@ -10,9 +10,10 @@ const AddContact = () => {
           <input type="text" name="name" placeholder="Name" />
         </div>
         <div className="field">
-          <label>Name</label>
-          <input type="text" name="name" placeholder="Name" />
+          <label>Email</label>
+          <input type="text" name="name" placeholder="Email" />
         </div>
+        <button className="ui button blue">Add</button>
       </form>
     </div>
   );
