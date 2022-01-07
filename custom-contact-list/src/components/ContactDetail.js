@@ -11,8 +11,8 @@ const ContactDetail = (props) => {
           <img src={user} alt="user" />
         </div>
         <div className="content">
-          <div className="header">Reid</div>
-          <div className="description">reidw19@gmail.com</div>
+          <div className="header">{name}</div>
+          <div className="description">{email}</div>
         </div>
       </div>
     </div>
