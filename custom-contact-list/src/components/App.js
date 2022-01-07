@@ -10,7 +10,7 @@ function App() {
   const [contacts, setContacts] = useState([]);
   const addContactHandler = (contact) => {
     console.log(contact);
-    setContacts([...contacts, { id: uuid(), ...contacts }]);
+    setContacts([...contacts, { id: uuid(), ...contact }]);
   };
 
   const removeContactHandler = (id) => {
