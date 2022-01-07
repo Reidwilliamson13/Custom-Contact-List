@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import user from "../images/image.svg";
 
 const ContactDetail = (props) => {
+  const { name, email } = props.location.state.contact;
   return (
     <div className="main">
       <div className="ui card centered">
