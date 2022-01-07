@@ -15,6 +15,9 @@ const ContactDetail = (props) => {
           <div className="description">{email}</div>
         </div>
       </div>
+      <div className="center-div">
+        <button className="ui button blue center">Back to Contact List</button>
+      </div>
     </div>
   );
 };
