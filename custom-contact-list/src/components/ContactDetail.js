@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import user from "../images/image.svg";
 
-const ContactCard = (props) => {
+const ContactDetail = (props) => {
   return (
     <div className="main">
       <div className="ui card centered">
@@ -18,4 +18,4 @@ const ContactCard = (props) => {
   );
 };
 
-export default ContactCard;
+export default ContactDetail;
