@@ -39,7 +39,12 @@ function App() {
         <Header />
         <Switch>
           <Route path="/" exact component={ContactList} />
-          <Route path="/add" component={AddContact} />
+          <Route
+            path="/add"
+            component={() => (
+              <AddContact addContactHandler={addContactHandler} />
+            )}
+          />
         </Switch>
         {/* <AddContact addContactHandler={addContactHandler} /> */}
         {/* <ContactList contacts={contacts} getContactId={removeContactHandler} /> */}
