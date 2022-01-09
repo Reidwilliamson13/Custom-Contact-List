@@ -16,7 +16,11 @@ const ContactDetail = (props) => {
         </div>
       </div>
       <div className="center-div">
-        <button className="ui button blue center">Back to Contact List</button>
+        <Link to="/">
+          <button className="ui button blue center">
+            Back to Contact List
+          </button>
+        </Link>
       </div>
     </div>
   );
